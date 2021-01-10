@@ -556,7 +556,8 @@ header{
     }
 }
 .modal-content{
-    padding: 100px;
+    padding: 150px;
+    
 }
 #btn-close-modal{
     position: absolute;
@@ -620,8 +621,21 @@ header{
     font-size: 1.4rem;
     font-weight:700;
 }
+.modal-content .imgs{
+    overflow: hidden;
+}
 .modal-content .imgs>img{
     margin:10px;
+}
+@media (max-width: 845px){
+    .modal-content{
+        padding: 90px;
+    }
+}
+@media (max-width: 576px){
+    .modal-content{
+        padding: 30px;
+    }
 }
 /* .modals{
     opacity: 0;
