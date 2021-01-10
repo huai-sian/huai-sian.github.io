@@ -1,4 +1,10 @@
 $(document).ready(function() {
+    const loading = document.querySelector('.loading');
+    (function (){
+        setTimeout(() => {
+            loading.style.display = 'none';
+        }, 2500)
+    }())
     function debounce(func, wait=20, immediate = true){
         var timeout;
         return function(){
