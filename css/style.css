@@ -25,7 +25,7 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	line-height: 1;
+	line-height: 1.8rem;
 }
 ol, ul {
 	list-style: none;
@@ -112,11 +112,11 @@ header{
 }
 .nav_bar .marko{
     float: left;
-    padding:15px;
+    padding:8px;
 }
 .nav_bar .marko h2{
     float: right;
-    padding-top:7px;
+    padding-top:4px;
     padding-left:10px;
     letter-spacing:1px;
     text-decoration: none;
@@ -125,7 +125,7 @@ header{
     font-weight: 600;
 }
 .nav_bar .nav-item{
-    margin-right:40px;
+    margin-right:25px;
 }
 .nav_bar .marko a{
     display: block;
@@ -133,7 +133,7 @@ header{
 .nav_bar .marko i{
     display: inline-block;
     font-size:1.2rem;
-    padding-top:6px;
+    padding-top:7px;
     color:white;
 }
 .nav_bar .nav-item ul>li{
@@ -144,9 +144,9 @@ header{
     text-decoration: none;
     font-weight: 700;
     font-size: 1.05rem;
-    padding:15px;
+    padding:8px;
+    padding-top:9.5px;
     /* 撐大a範圍 */
-    padding-top:22px;
     color:white;
     transition:all 0.4s;
 }
@@ -154,21 +154,32 @@ header{
     color:grey;
 }
 @media (max-width: 576px){
+    .nav_bar .marko{
+        padding:4px;
+    }
+    .nav_bar .marko h2{
+        padding-top:3px;
+        padding-left:10px;
+        font-size:1.1rem;
+    }
+    .nav_bar .marko i{
+        font-size:1.1rem;
+        padding-top:8px;
+    }
     .nav_bar .nav-item{
         margin-right:20px;
     }
     .nav_bar .nav-item ul>li>a{
         font-size: 1rem;
-        padding:15px;
+        padding:3px 5px;
+        padding-top:5px;
         /* 撐大a範圍 */
-        padding-top:22px;
-        padding-right:5px;
         color:white;
         transition:all 0.4s;
     }
 }
 .top{
-    background:url(../images/ux-store-jJT2r2n7lYA-unsplash.jpg) no-repeat fixed;
+    background:url(../images/ux-store-jJT2r2n7lYA-unsplash-min.jpg) no-repeat fixed;
     background-image:center top;
     background-size:cover;
 }
@@ -184,6 +195,7 @@ header{
 .top>.scroll>.title{
     text-align: center;
     font-size:4rem;
+    line-height:4.5rem;
     color:white;
     font-weight:900;
     padding-bottom:45px;
@@ -281,7 +293,7 @@ header{
 }
 .about>div>p{
     color: white;
-    line-height: 1.4rem;
+    line-height: 1.5rem;
     font-size: 1rem;
     text-align: center;
 }
@@ -343,6 +355,9 @@ header{
     font-weight: 700;
     line-height: 1.7rem;
 }
+.skill .skillcon .skillitem ul>li>p{
+    text-align: center;
+}
 .skill .skillcon .skillitem ul .frame{
     width:8rem;
     height: 8rem;
@@ -378,7 +393,7 @@ header{
     }
 }
 .footer{
-    background:url(../images/ux-store-jJT2r2n7lYA-unsplash.jpg) no-repeat fixed;
+    background:url(../images/ux-store-jJT2r2n7lYA-unsplash-min.jpg) no-repeat fixed;
     background-image:center center;
     background-size:100% 100%;
 }
@@ -462,7 +477,7 @@ header{
     border-bottom: 4px solid #F05F40;
 }
 .works{
-    background:url(../images/ricardo-gomez-angel-5YM26lUicfU-unsplash.jpg) no-repeat fixed;
+    background:url(../images/ricardo-gomez-angel-5YM26lUicfU-unsplash-min.jpg) no-repeat fixed;
     background-image:center center;
     background-size:100% 100%;
 }
