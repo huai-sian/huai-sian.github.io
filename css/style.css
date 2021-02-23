@@ -654,6 +654,9 @@ header{
 .modal-content .imgs{
     overflow: hidden;
 }
+.modal-content figure{
+    margin-bottom: 3rem;
+}
 .modal-content .imgs>img{
     margin:10px;
 }
