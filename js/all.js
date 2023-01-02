@@ -28,6 +28,7 @@ $(document).ready(function() {
     $('#demo06').animatedModal({modalTarget:'Modal06'}); 
     $('#demo08').animatedModal({modalTarget:'Modal08'}); 
     $('#demo09').animatedModal({modalTarget:'Modal09'}); 
+    $('#demo10').animatedModal({modalTarget:'Modal10'});
     var topMenuHeight = $('header').height();
     $('.nav-link').click(function(e){
         let href=$(this).attr('href');
