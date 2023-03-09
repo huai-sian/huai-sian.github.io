@@ -26,7 +26,9 @@ $(document).ready(function() {
     $('#demo04').animatedModal({modalTarget:'Modal04'}); 
     $('#demo05').animatedModal({modalTarget:'Modal05'}); 
     $('#demo06').animatedModal({modalTarget:'Modal06'}); 
-    $('#demo07').animatedModal({modalTarget:'Modal07'}); 
+    $('#demo08').animatedModal({modalTarget:'Modal08'}); 
+    $('#demo09').animatedModal({modalTarget:'Modal09'}); 
+    $('#demo10').animatedModal({modalTarget:'Modal10'});
     var topMenuHeight = $('header').height();
     $('.nav-link').click(function(e){
         let href=$(this).attr('href');
